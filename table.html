@@ -11,12 +11,13 @@
             width: 300px;
             height: 200px;
             border: 1px solid red;
+            border-collapse: collapse;
         }
-        td{
+        td,th{
             border: 2px solid black;
         }
-        th{
-            border: 2px solid yellow;
+        tr{
+            text-align: center;
         }
     </style>
 </head>
@@ -24,24 +25,24 @@
     <div style="">
         <table>
             <thead>
-                <tr align="center">
+                <tr>
                     <th>ID</th>
                     <th>Name</th>
                     <th>GPA</th>
                 </tr>
             </thead>
             <tbody>
-                <tr align="center">
+                <tr>
                     <td>101</td>
                     <td>Rubaiya</td>
                     <td>4.50</td>
                 </tr>
-                <tr align="center">
+                <tr>
                     <td>102</td>
                     <td>Rony</td>
                     <td>4.70</td>
                 </tr>
-                <tr align="center">
+                <tr>
                     <td>103</td>
                     <td>Vabna</td>
                     <td>3.50</td>
