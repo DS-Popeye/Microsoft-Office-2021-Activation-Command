@@ -4,9 +4,72 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>HTML Form</title>
 </head>
 <body>
-    
+    <h1>Registration Form</h1>
+    <form>
+        <div>
+            <label for="fullname">Full Name</label>
+            <input type="text" name="fullname" id="fullname">
+        </div><br>
+
+        <div>
+            <label for="username">Username</label>
+            <input type="text" name="username" id="username">
+        </div><br>
+        <div>
+            <label for="email">E-main</label>
+            <input type="email" name="email" id="email">
+        </div><br>
+
+        <div>
+            <label for="password">Password</label>
+            <input type="password" name="password" id="password">
+        </div><br>
+
+        <div>
+            <label for="date-of-birth">Date Of Birth</label>
+            <input type="date" name="date-of-birth" id="date-of-birth">
+        </div><br>
+
+        <div>
+            <label for="photo">Choose your photo</label>
+            <input type="file" name="photo" id="photo">
+        </div><br>
+
+        <div>
+            <label for="gender">Gender</label>
+            <input type="radio" name="gender" id="gender" value="male">Male
+            <input type="radio" name="gender" id="gender" value="female">Female
+        </div><br>
+
+        <div>
+            <label for="religion">Religion</label>
+            <input type="checkbox" name="religion" id="religion" value="islam">Islame
+            <input type="checkbox" name="religion" id="religion" value="hindu">Hindu
+        </div><br>
+
+        <div>
+            <label for="department">Department:</label>
+            <select name="department" id="department">
+                <option value="swe">SWE</option>
+                <option value="cse">CSE</option>
+                <option value="eee">EEE</option>
+                <option value="llb">LLB</option>
+                <option value="law">LAW</option>
+            </select>
+        </div><br>
+
+        <div>
+            <label for="message">Message:</label><br>
+            <textarea name="message" id="message" cols="30" rows="10"></textarea>
+        </div>
+        <input type="submit" value="Register">
+        <input type="reset" value="Clear">
+        <div>
+
+        </div>
+    </form>
 </body>
 </html>
