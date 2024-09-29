@@ -157,6 +157,7 @@ pause >nul
 ## More information:
 
 - Here is the KMS client key of Office 2021: ```FXYTK-NJJ8C-GB6DW-3DYQT-6F7TH```.
-- The Office 2021 KMS license is valid for 180 days only but it can be renewed automatically so you needn’t worry so much about the period.
+- The Office 2021 KMS license is valid for 180 days only but can be renewed automatically so you needn’t worry so much about the period.
 
-- If you would have any questions or concerns, please leave your comments. I would be glad to explain in more details. Thank you so much for all your feedback and support!
+- If you have any questions or concerns, please comment. I would be glad to explain in more detail. Thank you so much for all your feedback and support!
+- If you have any questions please make an issue or discussion.
